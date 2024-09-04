@@ -1,0 +1,15 @@
+#mainContainer {
+
+}
+
+#sidebar {
+    grid-area: sidebar;
+}
+
+#header {
+    grid-area: header;
+}
+
+#content {
+    grid-area: content;
+}
