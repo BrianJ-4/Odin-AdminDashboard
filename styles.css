@@ -73,6 +73,7 @@ html, body {
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr 1fr;
     padding-left: 20px;
+    padding-right: 50px;
     box-shadow: 0 4px 2px -2px rgb(210, 208, 208);
 }
 
@@ -95,8 +96,7 @@ input[type="text"] {
     grid-template-columns: 25px 50px auto;
     justify-content: end;
     align-items: center;
-    gap: 20px;
-    padding-right: 50px;
+    gap: 40px;
 }
 
 #account-display {
@@ -127,7 +127,6 @@ input[type="text"] {
     grid-template-columns: repeat(3, min-content);
     justify-content: end;
     align-items: center;
-    padding-right: 50px;
     gap: 10px;
 }
 
