@@ -1,5 +1,8 @@
 #mainContainer {
-
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: "sidebar header" "sidebar content";
 }
 
 #sidebar {
