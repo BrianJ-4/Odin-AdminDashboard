@@ -1,3 +1,9 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Main Layout */
 #mainContainer {
     display: grid;
     grid-template-rows: 1fr 4fr;
@@ -7,6 +13,9 @@
 
 #sidebar {
     grid-area: sidebar;
+    display: grid;
+    gap: 60px;
+    background-color: red;
 }
 
 #header {
@@ -16,3 +25,38 @@
 #content {
     grid-area: content;
 }
+/************************/
+
+/* Sidebar */
+#dashboardTitle {
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-template-rows: 1fr;
+    justify-content: start;
+}
+
+#dashboardText {
+    padding-left: 10px;
+    align-self: center;
+}
+
+#sidebar-navigation {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 15px;
+}
+
+#sidebar-branding {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.sidebar-item{
+    display: grid;
+    grid-template-columns: 25px auto;
+    grid-template-rows: 1fr;
+    justify-content: start;
+}
+
+/************************/
